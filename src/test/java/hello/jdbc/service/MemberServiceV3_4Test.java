@@ -40,7 +40,7 @@ class MemberServiceV3_3Test {
     private MemberServiceV3_3 memberService;
 
     @TestConfiguration
-    static class TestConfig {
+    static class testConfig {
         @Bean
         DataSource dataSource() {
             return new DriverManagerDataSource(URL, USERNAME, PASSWORD);
